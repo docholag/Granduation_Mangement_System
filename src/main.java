@@ -111,6 +111,7 @@ public class main extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 102, 102), 6));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jbtnThemMoi.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnThemMoi.setText("Thêm mới");
         jbtnThemMoi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,6 +120,7 @@ public class main extends javax.swing.JFrame {
         });
         jPanel3.add(jbtnThemMoi, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 150, 30));
 
+        jbtnDangXuat.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnDangXuat.setText("Đăng xuất");
         jbtnDangXuat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,6 +129,7 @@ public class main extends javax.swing.JFrame {
         });
         jPanel3.add(jbtnDangXuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 150, 30));
 
+        jbtnXoa.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnXoa.setText("Xóa");
         jbtnXoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,6 +138,7 @@ public class main extends javax.swing.JFrame {
         });
         jPanel3.add(jbtnXoa, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 150, 30));
 
+        jbtnReset.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnReset.setText("Reset");
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,6 +147,7 @@ public class main extends javax.swing.JFrame {
         });
         jPanel3.add(jbtnReset, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 150, 30));
 
+        jbtnXuat.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnXuat.setText("Xuất");
         jbtnXuat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,6 +156,7 @@ public class main extends javax.swing.JFrame {
         });
         jPanel3.add(jbtnXuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 150, 30));
 
+        jbtnCapNhat.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jbtnCapNhat.setText("Cập nhật");
         jbtnCapNhat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,30 +195,37 @@ public class main extends javax.swing.JFrame {
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel4.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 100, 210, 380));
 
+        jLabel2.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel2.setText("SBD:");
         jPanel4.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 90, 20));
-        jPanel4.add(jtxtSBD, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 50, 330, -1));
+        jPanel4.add(jtxtSBD, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 50, 370, -1));
 
+        jLabel3.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel3.setText("Họ Tên:");
         jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 90, 20));
-        jPanel4.add(jtxtHoTen, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 330, -1));
+        jPanel4.add(jtxtHoTen, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 370, -1));
 
+        jLabel4.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel4.setText("Số điện thoại:");
         jPanel4.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 90, 20));
-        jPanel4.add(jtxtSoDienThoai, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 330, -1));
+        jPanel4.add(jtxtSoDienThoai, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 370, -1));
 
+        jLabel5.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel5.setText("Năm sinh:");
         jPanel4.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 90, 20));
-        jPanel4.add(jtxtNamSinh, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, 330, -1));
+        jPanel4.add(jtxtNamSinh, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 140, 370, -1));
 
+        jLabel6.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel6.setText("Địa chỉ:");
         jPanel4.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 90, 20));
-        jPanel4.add(jtxtDiaChi, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 330, -1));
+        jPanel4.add(jtxtDiaChi, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 170, 370, -1));
 
+        jLabel7.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel7.setText("Khối thi:");
         jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 200, 90, 20));
-        jPanel4.add(jtxtKhoiThi, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, 330, -1));
+        jPanel4.add(jtxtKhoiThi, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, 370, -1));
 
+        jTable1.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -233,9 +246,10 @@ public class main extends javax.swing.JFrame {
 
         jPanel4.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 580, 160));
 
+        jLabel9.setFont(new java.awt.Font("SansSerif", 1, 13)); // NOI18N
         jLabel9.setText("ID:");
         jPanel4.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 80, 20));
-        jPanel4.add(jtxtID, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, 330, -1));
+        jPanel4.add(jtxtID, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 20, 370, -1));
 
         jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 600, 400));
 
@@ -414,37 +428,37 @@ public class main extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new main().setVisible(true);
-            }
-        });
-    }
+//    public static void main(String args[]) {
+//        /* Set the Nimbus look and feel */
+//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+//         */
+//        try {
+//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+//                if ("Nimbus".equals(info.getName())) {
+//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+//                    break;
+//                }
+//            }
+//        } catch (ClassNotFoundException ex) {
+//            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (InstantiationException ex) {
+//            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (IllegalAccessException ex) {
+//            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+//            java.util.logging.Logger.getLogger(main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        }
+//        //</editor-fold>
+//
+//        /* Create and display the form */
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new main().setVisible(true);
+//            }
+//        });
+//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
